@@ -7,13 +7,14 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "start": "astro preview --host 0.0.0.0"
+    "start": "serve -s dist -l 3000"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.12",
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
     "astro": "^5.16.0",
+    "serve": "^14.2.5",
     "sharp": "^0.34.3"
   }
 }
