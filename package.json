@@ -6,8 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "start": "serve -s dist -l 3000"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.12",
